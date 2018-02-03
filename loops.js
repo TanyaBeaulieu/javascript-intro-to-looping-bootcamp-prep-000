@@ -20,8 +20,11 @@ function whileLoop(num) {
 return ("done");
 }
 
+array = [1, 2, 3, 4, 5]
 function doWhileLoop(array) {
     do {
         array.pop();
-    } while (array.length > 0 && maybeTrue());  return array;
+    } while (array.length > 0 && maybeTrue());  
+    return array;
 }
+
