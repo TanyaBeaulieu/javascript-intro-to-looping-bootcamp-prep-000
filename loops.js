@@ -10,6 +10,6 @@ function forLoop(array) {
       //  console.log(i);
       } 
   }
-  //return array;
+  return array;
 }
 
